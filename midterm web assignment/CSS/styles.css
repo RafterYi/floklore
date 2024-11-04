@@ -1,0 +1,156 @@
+.headerLogo {
+    width: 160px;
+}
+body{
+    background-image: url('images/BAckgroundPA.png'); /* 設定背景圖片 */
+    background-size: cover; /* 讓圖片覆蓋整個背景 */
+    background-position: center; /* 圖片置中 */
+    background-repeat: no-repeat; /* 不重複圖片 */
+}
+.title {
+    justify-content: space-between;
+    margin-top: 36px;
+    height: 92px;
+    
+}
+.tabBar {
+    height: 100%;
+    width: 90%;
+    text-align: right;
+    margin-right: 20px;
+    padding: 4px;
+    letter-spacing: 0.5rem;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+a{
+    text-decoration: none;
+}
+.note {
+    margin-right: 20px;
+    color: #4d2e06;
+}
+header{
+    padding: 20px 20px 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* 滿寬 */
+    z-index: 1000;
+    box-sizing: border-box; /* 確保內邊距不影響寬度 */
+    padding: 20px;
+    text-align: center;
+}
+.chapterOne{
+    position: relative;
+    width: 100%; /* 設定圖片容器寬度 */
+    max-width: 800px; /* 控制圖片最大寬度 */
+    margin: auto;
+}
+.chapterOnePurpose{
+    position: absolute; /* 絕對定位到圖片之上 */
+    top: 0; /* 將文字容器定位在左上角 */
+    left: 0; /* 將文字容器定位在左上角 */
+    padding: 20px; /* 增加間距 */
+    color: #4d2e06; /* 字體顏色 */
+    text-align: left;
+    width: 50%;
+}
+.chapterOnePurpose p {
+    font-size: 1.01em;
+    margin: 10px 0;
+}
+.chapterOneStoryImg{
+    width: 100%;
+}
+
+
+.chapterTwo{
+    position: relative;
+    width: 100%; /* 設定圖片容器寬度 */
+    max-width: 800px; /* 控制圖片最大寬度 */
+    margin: auto;
+}
+.chapterTwoPurpose{
+    position: absolute; /* 絕對定位到圖片之上 */
+    top: 0; /* 將文字容器定位在左上角 */
+    left: 30%; /* 將文字容器定位在左上角 */
+    padding: 20px; /* 增加間距 */
+    color: #4d2e06; /* 字體顏色 */
+    text-align: left;
+    width: 42%;
+    background-color: rgba(234, 227, 221, 0.64); /* 半透明背景 */
+    border-radius: 10px;
+    max-width: 300px; /* 控制背景方格的寬度 */
+    backdrop-filter: blur(5px) saturate(200%); /* 背景模糊和飽和度 */
+    -webkit-backdrop-filter: blur(10px) saturate(180%); /* Safari 支援 */
+}
+.chapterTwoPurpose p {
+    font-size: 1.01em;
+    margin: 10px 0;
+}
+.chapterTwoStoryImg{
+    width: 100%;
+}
+
+
+.chapterThree{
+    position: relative;
+    width: 100%; /* 設定圖片容器寬度 */
+    max-width: 800px; /* 控制圖片最大寬度 */
+    margin: auto;
+}
+.chapterThreePurpose{
+    position: absolute; /* 絕對定位到圖片之上 */
+    top: 0; /* 將文字容器定位在左上角 */
+    left: 0; /* 將文字容器定位在左上角 */
+    padding: 20px; /* 增加間距 */
+    color: #4d2e06; /* 字體顏色 */
+    text-align: left;
+    width: 50%;
+    
+    /*background-color: rgba(234, 227, 221, 0.64); /* 半透明背景 */
+    /* border-radius: 10px;  */
+    /*max-width: 200px; /* 控制背景方格的寬度 */
+    /*backdrop-filter: blur(5px) saturate(200%); /* 背景模糊和飽和度 */
+    /*-webkit-backdrop-filter: blur(10px) saturate(180%); /* Safari 支援 */
+    
+}
+.chapterThreePurpose p {
+    font-size: 1.01em;
+    margin: 10px 0;
+}
+.chapterThreeStoryImg{
+    width: 100%;
+}
+
+
+.chapterFour{
+    position: relative;
+    width: 100%; /* 設定圖片容器寬度 */
+    max-width: 800px; /* 控制圖片最大寬度 */
+    margin: auto;
+}
+.chapterFourPurpose{
+    position: absolute; /* 絕對定位到圖片之上 */
+    top: 0; /* 將文字容器定位在左上角 */
+    left: 0; /* 將文字容器定位在左上角 */
+    padding: 20px; /* 增加間距 */
+    color: #4d2e06; /* 字體顏色 */
+    text-align: left;
+    width: 50%;
+}
+.chapterFourPurpose p {
+    font-size: 1.01em;
+    margin: 10px 0;
+}
+.chapterFourStoryImg{
+    width: 100%;
+}
+.ourWorld{
+    color: #4d2e06;
+}

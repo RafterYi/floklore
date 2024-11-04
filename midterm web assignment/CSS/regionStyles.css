@@ -1,0 +1,70 @@
+.headerLogo {
+    width: 160px;
+}
+body{
+    background-image: url('images/BAckgroundPA.png');
+}
+.title {
+    justify-content: space-between;
+    margin-top: 36px;
+    height: 92px;
+    
+}
+.tabBar {
+    height: 100%;
+    width: 90%;
+    text-align: right;
+    margin-right: 20px;
+    padding: 4px;
+    letter-spacing: 0.5rem;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+a{
+    text-decoration: none;
+}
+.note {
+    margin-right: 20px;
+    color: #4d2e06;
+}
+header{
+    padding: 20px 20px 30px 20px;
+}
+
+.world{
+    text-align: center;
+    padding: 10px;
+}
+
+.world h1{
+    font-size: 2em;
+    color: #4d2e06;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.allWorld{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.pic1img{
+    width: 100%;
+    max-width: 250px;
+}
+.pic2img{
+    width: 100%;
+    max-width: 250px;
+}
+.pic3img{
+    width: 100%;
+    max-width: 250px;
+}
+h2{
+    color: #4d2e06;
+}

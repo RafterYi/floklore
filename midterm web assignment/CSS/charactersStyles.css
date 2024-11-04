@@ -1,0 +1,132 @@
+.headerLogo {
+    width: 160px;
+}
+body{
+    background-image: url('images/BAckgroundPA.png');
+}
+.title {
+    justify-content: space-between;
+    margin-top: 36px;
+    height: 92px;
+    
+}
+.tabBar {
+    height: 100%;
+    width: 90%;
+    text-align: right;
+    margin-right: 20px;
+    padding: 4px;
+    letter-spacing: 0.5rem;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+a{
+    text-decoration: none;
+}
+.note {
+    margin-right: 20px;
+    color: #4d2e06;
+}
+header{
+    padding: 20px 20px 30px 20px;
+}
+.allFood{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.intro-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    color: #4d2e06;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.intro-text button {
+    background-color: #4d2e06;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.intro-text button:hover {
+    background-color: #4d2e06;
+}
+
+/* Main Dishes Section */
+.main-dishes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dish-card {
+    width: 220px;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.dish-card:hover {
+    transform: scale(1.05);
+}
+
+.dish-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.dish-card h3 {
+    font-size: 1.2rem;
+    color: #4d2e06;
+    margin: 10px 0;
+}
+
+.dish-card p {
+    font-size: 0.9rem;
+    color: #4d2e06;
+}
